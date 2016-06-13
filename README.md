@@ -16,7 +16,7 @@ Java is a statically typed language. All typed information for class and instanc
 
 The following example of a Hello World program demonstrates static typing. Types are shown in bold.
 
-'''
+```
 import java.util.Date;
 
 public class HelloWorld {
@@ -29,6 +29,6 @@ public class HelloWorld {
         }
     }
 }
-'''
+```
 
 A programming language is dynamically typed if it performs type checking at runtime. JavaScript and Ruby are examples of dynamically typed languages. These languages verify at runtime, rather than at compile time, that values in an application conform to expected types. These languages typically do not have any type information available at compile time. The type of an object can be determined only at runtime. Hence, in the past, it was difficult to efficiently implement them on the JVM.
